@@ -1,0 +1,45 @@
+/*resset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3B4664;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-up{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-up-left h2{
+    color: #fff;
+}
+.box-up-rigth{
+    display: flex;
+    color: #fff;
+    font-size: 15px;
+}
+.select ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.box-select{
+    display: flex;
+}
+.box-center input{
+    width: 500px;
+    height: 120px;
+    background-color: #181F32;
+    border: 1px solid #181F32;
+    border-radius: 10px;
+}
